@@ -136,5 +136,8 @@ if nim in mahasiswa: memeriksa apakah NIM yang dimasukkan oleh pengguna ada dala
 4. Menampilkan Data Mahasiswa:
 
 Jika NIM ditemukan, program akan mengambil data mahasiswa terkait dengan NIM tersebut: data = mahasiswa[nim] menyimpan informasi mahasiswa dalam variabel data. Kemudian, program akan mencetak informasi mahasiswa dengan format yang jelas: print(f"NIM: {nim}") menampilkan NIM mahasiswa. print(f"Nama: {data['nama']}") menampilkan nama mahasiswa. print(f"Nilai Tugas: {data['tugas']}") menampilkan nilai tugas. print(f"Nilai UTS: {data['uts']}") menampilkan nilai UTS. print(f"Nilai UAS: {data['uas']}") menampilkan nilai UAS. print(f"Nilai Akhir: {data['nilai_akhir']}") menampilkan nilai akhir yang telah dihitung.
+
 5. Pesan NIM Tidak Ditemukan:
+
 Jika NIM yang dimasukkan tidak ditemukan dalam dictionary mahasiswa, maka program akan mengeksekusi bagian else dan menampilkan pesan print("NIM tidak ditemukan.").
+# Flowchart
