@@ -1,4 +1,4 @@
-# praktikum5
+# Praktikum 5
 Buat program sederhana untuk menampilkan daftar nilai mahasiswa dengan ketentuan :
 
 1. program dibuat menggunakan dictionary
