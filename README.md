@@ -22,6 +22,7 @@ Buat program sederhana untuk menampilkan daftar nilai mahasiswa dengan ketentuan
 6. Fungsi cari_data: Mencari dan menampilkan data mahasiswa berdasarkan NIM.
 # Penjelasan Setiap Menu
 # 1. Menampilkan menu (Tambah Data)
+![Screenshot_20241125_080451_Chrome](https://github.com/user-attachments/assets/0cb4f09e-258d-4817-bb50-a14460a35563)
 1. Definisi Fungsi:
 
      def tambah_data(mahasiswa): mendefinisikan sebuah fungsi bernama tambah_data, yang menerima satu parameter yaitu mahasiswa. Parameter ini diharapkan berupa dictionary yang menyimpan data mahasiswa.
@@ -51,7 +52,7 @@ Buat program sederhana untuk menampilkan daftar nilai mahasiswa dengan ketentuan
  print("Data mahasiswa berhasil ditambahkan.") menampilkan pesan konfirmasi kepada pengguna bahwa data mahasiswa telah berhasil ditambahkan.
 
 # 2. Menampilkan menu (Ubah Data)
-
+![Screenshot_20241125_080512_Chrome](https://github.com/user-attachments/assets/62a94319-e94b-4272-8f99-c337b88fd1f4)
 1. Definisi Fungsi:
 
   def ubah_data(mahasiswa): mendefinisikan sebuah fungsi bernama ubah_data, yang menerima satu parameter yaitu mahasiswa. Parameter ini diharapkan berupa dictionary yang menyimpan data mahasiswa. 
@@ -85,7 +86,7 @@ print("Data mahasiswa berhasil diubah.") menampilkan pesan konfirmasi kepada pen
 Jika NIM yang dimasukkan tidak ditemukan dalam dictionary mahasiswa, maka program akan mengeksekusi bagian else dan menampilkan pesan print("NIM tidak ditemukan.").
 
 # 3. Menampilkan menu (Hapus Data)
-
+![Screenshot_20241125_080525_Chrome](https://github.com/user-attachments/assets/5d4fc372-4b39-403a-8d38-e35538ed21ae)
 1. Definisi Fungsi:
 
 def hapus_data(mahasiswa): mendefinisikan sebuah fungsi bernama hapus_data, yang menerima satu parameter yaitu mahasiswa. Parameter ini diharapkan berupa dictionary yang menyimpan data mahasiswa.
@@ -111,7 +112,7 @@ print("Data mahasiswa berhasil dihapus.") menampilkan pesan konfirmasi kepada pe
 Jika NIM yang dimasukkan tidak ditemukan dalam dictionary mahasiswa, maka program akan mengeksekusi bagian else dan menampilkan pesan print("NIM tidak ditemukan.").
 
 # 4. Menampilkan menu (Tampilkan Data)
-
+![Screenshot_20241125_080540_Chrome](https://github.com/user-attachments/assets/15e288d6-72b1-4754-838e-8d65f63d9894)
 1. Definisi Fungsi:
 
 def tampilkan_data(mahasiswa): mendefinisikan sebuah fungsi bernama tampilkan_data, yang menerima satu parameter yaitu mahasiswa. Parameter ini diharapkan berupa dictionary yang menyimpan data mahasiswa.
@@ -129,7 +130,7 @@ Jika ada data mahasiswa, program akan menampilkan pesan "Data Mahasiswa:" sebaga
 Di dalam loop, program akan mencetak informasi mahasiswa dengan format yang jelas: print(f"NIM: {nim}") menampilkan NIM mahasiswa. print(f"Nama: {data['nama']}") menampilkan nama mahasiswa. print(f"Nilai Tugas: {data['tugas']}") menampilkan nilai tugas. print(f"Nilai UTS: {data['uts']}") menampilkan nilai UTS. print(f"Nilai UAS: {data['uas']}") menampilkan nilai UAS. print(f"Nilai Akhir: {data['nilai_akhir']}") menampilkan nilai akhir yang telah dihitung.
 
 # 5. Menampilkan menu (Cari Data)
-
+![Screenshot_20241125_080553_Chrome](https://github.com/user-attachments/assets/4b1635e4-f426-4639-9754-4d219c139bd2)
 1. Definisi Fungsi:
 
 def cari_data(mahasiswa): mendefinisikan sebuah fungsi bernama cari_data, yang menerima satu parameter yaitu mahasiswa. Parameter ini diharapkan berupa dictionary yang menyimpan data mahasiswa.
