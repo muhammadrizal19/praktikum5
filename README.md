@@ -5,6 +5,13 @@ Buat program sederhana untuk menampilkan daftar nilai mahasiswa dengan ketentuan
 2. tampilkan menu pilihan ( tambah data, ubah data, hapus data, tampilkan data, cari data)
 3. nilai akhir diambil dari perhitungan 3 komponen nilai (tugas : 30%, uts : 35%, uas : 35%)
 ![Screenshot_20241124_235423_Chrome](https://github.com/user-attachments/assets/e615ab42-2a93-4ae1-bbee-963b2720c3e2)
+![Screenshot_20241124_235448_Chrome](https://github.com/user-attachments/assets/38afaf7b-4da7-4c4c-bddc-49d3783a69e2)
+![Screenshot_20241124_235503_Chrome](https://github.com/user-attachments/assets/b9da0ff4-9438-468f-8bc7-e5c9bdfc4de1)
+![Screenshot_20241124_235521_Chrome](https://github.com/user-attachments/assets/1cd31509-71f7-405b-8b86-17da42b8962b)
+![Screenshot_20241124_235538_Chrome](https://github.com/user-attachments/assets/cdd3ffd0-4d1a-4901-a158-a32721d50438)
+![Screenshot_20241124_235608_Chrome](https://github.com/user-attachments/assets/33d98f4b-35b8-454b-845e-9f260be82013)
+![Screenshot_20241124_235633_Chrome](https://github.com/user-attachments/assets/583a13ba-758d-4587-a20b-78f1afa9327b)
+
 
 # Penjelasan Program: 
 1. Fungsi hitung_nilai_akhir: Menghitung nilai akhir berdasarkan komponen tugas, UTS, dan UAS dengan bobot yang sudah ditentukan.
