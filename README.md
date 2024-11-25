@@ -4,6 +4,8 @@ Buat program sederhana untuk menampilkan daftar nilai mahasiswa dengan ketentuan
 1. program dibuat menggunakan dictionary
 2. tampilkan menu pilihan ( tambah data, ubah data, hapus data, tampilkan data, cari data)
 3. nilai akhir diambil dari perhitungan 3 komponen nilai (tugas : 30%, uts : 35%, uas : 35%)
+![Screenshot_20241124_235423_Chrome](https://github.com/user-attachments/assets/e615ab42-2a93-4ae1-bbee-963b2720c3e2)
+
 # Penjelasan Program: 
 1. Fungsi hitung_nilai_akhir: Menghitung nilai akhir berdasarkan komponen tugas, UTS, dan UAS dengan bobot yang sudah ditentukan.
 2. Fungsi tambah_data: Menambahkan data mahasiswa ke dalam dictionary.
