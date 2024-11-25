@@ -151,3 +151,4 @@ Jika NIM ditemukan, program akan mengambil data mahasiswa terkait dengan NIM ter
 
 Jika NIM yang dimasukkan tidak ditemukan dalam dictionary mahasiswa, maka program akan mengeksekusi bagian else dan menampilkan pesan print("NIM tidak ditemukan.").
 # Flowchart
+![389179305-121ed05d-d51d-458d-b46d-dc19ac64384c](https://github.com/user-attachments/assets/e68a5497-de60-45d5-8394-ab69e55a58ee)
