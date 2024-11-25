@@ -31,23 +31,23 @@ Buat program sederhana untuk menampilkan daftar nilai mahasiswa dengan ketentuan
 
     nim = input("Masukkan NIM mahasiswa: ") meminta pengguna untuk memasukkan NIM (Nomor Induk Mahasiswa) dari mahasiswa yang akan ditambahkan. Nilai ini disimpan dalam variabel nim.
     
-4. Input Nama:
+3. Input Nama:
 
    nama = input("Masukkan nama mahasiswa: ") meminta pengguna untuk memasukkan nama mahasiswa. Nilai ini disimpan dalam variabel nama.
 
-5. Input Nilai Tugas, UTS, dan UAS:
+4. Input Nilai Tugas, UTS, dan UAS:
 
    tugas = float(input("Masukkan nilai tugas: ")) meminta pengguna untuk memasukkan nilai tugas dan mengkonversinya menjadi tipe data float agar dapat melakukan perhitungan desimal. uts = float(input("Masukkan nilai UTS: ")) dan uas = float(input("Masukkan nilai UAS: ")) melakukan hal yang sama untuk nilai UTS dan UAS.
 
-6. Menghitung Nilai Akhir:
+5. Menghitung Nilai Akhir:
 
   nilai_akhir = hitung_nilai_akhir(tugas, uts, uas) memanggil fungsi hitung_nilai_akhir yang telah didefinisikan sebelumnya, dengan parameter nilai tugas, UTS, dan UAS. Fungsi ini akan menghitung nilai akhir berdasarkan bobot yang telah ditentukan (tugas: 30%, UTS: 35%, UAS: 35%).
 
-7. Menambahkan Data ke Dictionary:
+6. Menambahkan Data ke Dictionary:
 
   mahasiswa[nim] = {'nama': nama, 'tugas': tugas, 'uts': uts, 'uas': uas, 'nilai_akhir': nilai_akhir} menambahkan data mahasiswa ke dalam dictionary mahasiswa dengan menggunakan NIM sebagai kunci. Nilai dari kunci ini adalah sebuah dictionary yang berisi nama, nilai tugas, UTS, UAS, dan nilai akhir.
 
-8. Pesan Konfirmasi:
+7. Pesan Konfirmasi:
 
  print("Data mahasiswa berhasil ditambahkan.") menampilkan pesan konfirmasi kepada pengguna bahwa data mahasiswa telah berhasil ditambahkan.
 
